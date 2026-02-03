@@ -1,0 +1,4 @@
+# chemin;perm;user;group;immutable
+/etc/passwd;644;root;root;no
+/etc/shadow;640;root;shadow;no
+/etc/sudoers;440;root;root;no

@@ -1,6 +1,6 @@
 #!/bin/bash
 CHECKLIST="./checklist.txt"
-LOG="/var/log/audit_fichiers.log"
+LOG="$HOME/audit_fichiers.log"
 FIX=0
 
 log_issue(){ echo "[$(date '+%F %T')] $1 | actuel:$2 | attendu:$3" >>"$LOG"; }
